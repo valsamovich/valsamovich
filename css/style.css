@@ -28,27 +28,6 @@ body {
     text-shadow: none;
 }
 
-a {
-    color: #00e;
-}
-
-a:visited {
-    color: rgb(59,120,231);
-}
-
-a:hover {
-    color: #06e;
-    outline: 0;
-}
-
-a:focus {
-    outline: thin dotted;
-}
-
-a:active {
-    outline: 0;
-}
-
 strong {
     font-weight: bold;
 }
@@ -83,7 +62,7 @@ p {
 }
 
 span, a, a:active, a:hover, a:visited {
-    color: #D32F2F;
+    color: #286bda;
     text-decoration: none;
 }
 
