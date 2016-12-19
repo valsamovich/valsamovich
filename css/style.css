@@ -44,7 +44,7 @@ img {
 }
 
 h1 {
-    margin-bottom: 6px;
+    margin-bottom: 2px;
     text-align: center;
 }
 
@@ -85,6 +85,11 @@ span, a, a:active, a:hover, a:visited {
 
 .social-stuff li {
     list-style-type: none;
+}
+
+.blogging {
+    font-size: 94%;
+    color: grey;
 }
 
 
