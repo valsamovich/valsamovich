@@ -87,9 +87,9 @@ span, a, a:active, a:hover, a:visited {
     list-style-type: none;
 }
 
-.blogging {
-    font-size: 94%;
-    color: grey;
+.paypal a{
+    font-size: 92%;
+    color: lightgrey;
 }
 
 
