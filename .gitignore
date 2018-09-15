@@ -20,5 +20,6 @@ tmp/
 *.ear
 *.gz
 *.zip
+*.tar
 
 *.sh
