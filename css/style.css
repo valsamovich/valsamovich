@@ -87,7 +87,7 @@ span, a, a:active, a:hover, a:visited {
 }
 
 .other {
-    padding: 0 0 35px;
+    padding: 0 0 10px;
 }
 
 hr {
@@ -95,12 +95,13 @@ hr {
     color: lightgrey;
     background: lightgrey;
     border: 0;
-    height: 1px;
+    height: 1px
 }
 
 .footer {
     color: lightgrey;
     font-size: 14px;
+    padding: 5px 0 0;
 }
 
 .statement-of-intent {
