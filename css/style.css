@@ -1,5 +1,5 @@
 html {
-    font-family: sans-serif;
+    font-family: Arial;
     color: #222;
     font-size: 100%;
     -webkit-text-size-adjust: 100%;
@@ -11,7 +11,7 @@ body {
     font-size: 1em;
     line-height: 1.4;
     color: #444;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -46,14 +46,17 @@ img {
 h1 {
     margin-bottom: 2px;
     text-align: center;
+    font-size: 42px;
+    padding: 0 0 3px;
 }
 
 h2 {
     margin: 0px;
-    padding: 0px;
     font-size: 18px;
     font-weight: normal;
     text-align: center;
+    color: grey;
+    padding: 0 0 3px;
 }
 
 p {
@@ -73,21 +76,35 @@ span, a, a:active, a:hover, a:visited {
 }
 
 .box {
-    margin: 60px auto 0;
+    margin: 80px auto 0;
     width: 100%;
 }
 
-.social-stuff {
+.social {
     margin: 20px auto;
-    padding: 0;
     max-width: 360px;
+    padding: 0 0 3px;
 }
 
-.social-stuff li {
-    list-style-type: none;
+.other {
+    padding: 0 0 35px;
 }
 
-.footer-special a{
-    font-size: 92%;
-    color: white;
+hr {
+    width: 500px;
+    color: lightgrey;
+    background: lightgrey;
+    border: 0;
+    height: 1px;
 }
+
+.footer {
+    color: lightgrey;
+    font-size: 14px;
+}
+
+.statement-of-intent {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
