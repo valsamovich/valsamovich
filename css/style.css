@@ -1,71 +1,22 @@
 html {
-    font-family: Arial;
-    color: #222;
-    font-size: 100%;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+    font-family: Arial, sans-serif;
 }
 
+/* For desktop: */
 body {
     margin: 0;
-    font-size: 1em;
-    line-height: 1.4;
-    color: #444;
-    font-family: Arial;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    padding: 0;
 }
 
-::-moz-selection {
-    background: #f4d291;
-    color: #000;
-    text-shadow: none;
-}
-
-::selection {
-    background: #f4d291;
-    color: #000;
-    text-shadow: none;
-}
-
-strong {
-    font-weight: bold;
-}
-
-ul {
-    margin: 1em 0;
-    padding: 0 0 0 40px;
+.outer-box {
+    width: 600px;
+    margin: 40px auto;
 }
 
 img {
     border: 0;
     -ms-interpolation-mode: bicubic;
     vertical-align: middle;
-}
-
-h1 {
-    margin-bottom: 2px;
-    text-align: center;
-    font-size: 42px;
-    padding: 0 0 3px;
-}
-
-h2 {
-    margin: 0;
-    font-size: 17px;
-    font-weight: normal;
-    text-align: center;
-    color: grey;
-    padding: 0 0 3px;
-}
-
-p {
-    text-align: center;
-}
-
-span, a, a:active, a:hover, a:visited {
-    color: #286bda;
-    text-decoration: none;
 }
 
 .me {
@@ -75,23 +26,42 @@ span, a, a:active, a:hover, a:visited {
     max-width: 150px;
 }
 
-.box {
-    margin: 80px auto 0;
-    width: 100%;
+.full-name {
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    padding: 0 0 10px;
+}
+
+.description {
+    margin: 0;
+    font-size: 17px;
+    font-weight: normal;
+    text-align: center;
+    color: grey;
+    padding: 0 0 3px;
+}
+
+span, a, a:active, a:hover, a:visited {
+    color: #286bda;
+    text-decoration: none;
 }
 
 .social {
     margin: 20px auto;
     max-width: 360px;
     padding: 0 0 3px;
+    text-align: center;
 }
 
 .other {
     padding: 0 0 10px;
+    text-align: center;
 }
 
 hr {
-    width: 500px;
+    width: 90%;
     color: lightgrey;
     background: lightgrey;
     border: 0;
@@ -102,6 +72,7 @@ hr {
     color: lightgrey;
     font-size: 14px;
     padding: 5px 0 0;
+    text-align: center;
 }
 
 .statement-of-intent {
@@ -109,3 +80,14 @@ hr {
     max-width: 600px;
 }
 
+
+/* For mobile phones: */
+@media only screen and (max-width: 728px) {
+    .full-name {
+        font-size: 36px;
+    }
+    .outer-box {
+        width: 90%;
+        margin: 40px auto;
+    }
+}
