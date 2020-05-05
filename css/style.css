@@ -36,7 +36,7 @@ img {
 
 .description {
     margin: 0;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: normal;
     text-align: center;
     color: grey;
@@ -58,6 +58,7 @@ span, a, a:active, a:hover, a:visited {
 .other {
     padding: 0 0 10px;
     text-align: center;
+    font-size: 18px;
 }
 
 hr {
@@ -89,5 +90,13 @@ hr {
     .outer-box {
         width: 90%;
         margin: 40px auto;
+    }
+
+    .description {
+        font-size: 17px;
+    }
+
+    .other {
+        font-size: 17px;
     }
 }
