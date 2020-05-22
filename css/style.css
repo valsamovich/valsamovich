@@ -104,4 +104,7 @@ hr {
     .other {
         font-size: 17px;
     }
+    .gravity {
+        display: none;
+    }
 }
