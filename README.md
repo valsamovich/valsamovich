@@ -1,6 +1,6 @@
-# vsamov [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](LICENSE)
+# valsamovich [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](LICENSE)
 
-A static site built by simply creating a few HTML pages, with CSS styles.
+A static site is built by simply creating a few HTML pages, with CSS styles.
 
 ## Contribution
 
